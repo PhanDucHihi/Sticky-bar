@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+  height: 3000px;
+  padding-top: 60px;
+}
+
+p{
+  font-family: Arial;
+}
+
+.navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: background-color 0.5s;
+}
+
+..navbar ul{
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li{
+  margin-right: 12px;
+  list-style-type: none;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  margin-right: 10px;
+  font-family: cursive;
+  color: black;
+}
+
+.top-container {
+  background-image: url("https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 100vh;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: brightness(0.8);
+}
+
+.top-container h1{
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 5px 5px 7px rgba(0,0,0,0.3);
+}
+
+
+.bottom-container p{
+  margin: 50px 5%;
+  font-family: sans-serif;
+}
+
+ .navbar.active {
+  background-color: black;
+  z-index: 2;
+}
+
+.navbar.active ul li a{
+  color: white;
+}
+
+.
